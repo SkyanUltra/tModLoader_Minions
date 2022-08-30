@@ -18,7 +18,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.CorruptionAltar
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Corrupt Cell");
-			Description.SetDefault("A corrupt cell will fight for you!");
+			Description.SetDefault("A corrupted cell will fight for you!");
 		}
 	}
 
@@ -29,7 +29,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.CorruptionAltar
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Corruption Cell Staff");
-			Tooltip.SetDefault("Summons a corrupt cell to fight for you!");
+			Tooltip.SetDefault("Summons a corrupt cell to fight for you!\n"+
+				"This minion empowers for each additional slot expended on it");
 		}
 		public override void ApplyCrossModChanges()
 		{
