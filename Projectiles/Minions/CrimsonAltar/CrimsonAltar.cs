@@ -18,7 +18,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.CrimsonAltar
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Crimson Cell");
-			Description.SetDefault("A crimson cell will fight for you!");
+			Description.SetDefault("The crimson cell will fight for you!");
 		}
 	}
 
@@ -29,7 +29,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.CrimsonAltar
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Crimson Cell Staff");
-			Tooltip.SetDefault("Summons a crimson cell to fight for you!");
+			Tooltip.SetDefault("Summons a crimson cell to fight for you!\n"+
+				"This minion empowers for each additional slot expended on it");
 		}
 		public override void ApplyCrossModChanges()
 		{
