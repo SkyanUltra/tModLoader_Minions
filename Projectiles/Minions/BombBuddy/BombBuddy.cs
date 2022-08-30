@@ -18,7 +18,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.BombBuddy
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Bomb Buddy");
-			Description.SetDefault("A bomb buddy will explode for you!");
+			Description.SetDefault("A bomb buddy will fight for you!");
 		}
 	}
 
