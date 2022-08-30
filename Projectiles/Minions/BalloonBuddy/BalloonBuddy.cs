@@ -17,7 +17,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.BalloonBuddy
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Balloon Buddy");
-			Description.SetDefault("A balloon buddy will fight for you!");
+			Description.SetDefault("The balloon buddy will fight for you!");
 		}
 	}
 
@@ -27,7 +27,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.BalloonBuddy
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Sorbet Staff");
-			Tooltip.SetDefault("Summons an enchanted balloon animal to fight for you!");
+			Tooltip.SetDefault("Summons an enchanted balloon buddy to fight for you!"\n"+
+				"This minion gains strength for each slot expended on it");
 
 		}
 		public override void ApplyCrossModChanges()
