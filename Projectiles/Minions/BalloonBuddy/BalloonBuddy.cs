@@ -27,7 +27,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.BalloonBuddy
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Sorbet Staff");
-			Tooltip.SetDefault("Summons an enchanted balloon buddy to fight for you!"\n"+
+			Tooltip.SetDefault("Summons an enchanted balloon buddy to fight for you!\n"+
 				"This minion empowers for each additional slot expended on it");
 
 		}
