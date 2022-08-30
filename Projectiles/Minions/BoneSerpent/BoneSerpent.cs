@@ -16,7 +16,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.BoneSerpent
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Bone Serpent");
-			Description.SetDefault("A skeletal dragon will fight for you!");
+			Description.SetDefault("A skeletal draconic serpent will fight for you!");
 		}
 	}
 
@@ -26,7 +26,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.BoneSerpent
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Bone Serpent Staff");
-			Tooltip.SetDefault("Summons a skeletal dragon to fight for you!");
+			Tooltip.SetDefault("Summons a skeletal draconic serpent to fight for you!\n"+
+				"This minion empowers for each additional slot expended on it");
 
 		}
 		public override void ApplyCrossModChanges()
