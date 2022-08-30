@@ -21,7 +21,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.BalloonMonkey
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Dart Monkeys");
-			Description.SetDefault("Dart-throwing Monkeys will fight for you!");
+			Description.SetDefault("Dart-throwing monkeys will fight for you!");
 		}
 	}
 
