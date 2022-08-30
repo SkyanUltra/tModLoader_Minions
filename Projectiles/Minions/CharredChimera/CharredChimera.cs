@@ -19,7 +19,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.CharredChimera
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Charred Chimera");
-			Description.SetDefault("A charred chimera will fight for you!");
+			Description.SetDefault("The charred chimera will fight for you!");
 		}
 	}
 
@@ -29,7 +29,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.CharredChimera
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Charred Spinal Cord");
-			Tooltip.SetDefault("Summons a charred chimera fight for you!");
+			Tooltip.SetDefault("Summons a charred chimera fight for you!\n"+
+				"This minion empowers for each additional slot expended on it");
 		}
 
 		public override void SetDefaults()
