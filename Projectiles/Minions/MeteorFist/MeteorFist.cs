@@ -17,7 +17,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.MeteorFist
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Meteor Fist");
-			Description.SetDefault("A meteor fist will fight for you!");
+			Description.SetDefault("A meteor brawler will fight for you!");
 		}
 	}
 
@@ -27,7 +27,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.MeteorFist
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Meteor Fist");
-			Tooltip.SetDefault("Summons a meteor fist to fight for you!");
+			Tooltip.SetDefault("Summons a meteor brawler to fight for you!\n"+
+				"This minion empowers for each additional slot expended on it");
 		}
 		public override void ApplyCrossModChanges()
 		{
