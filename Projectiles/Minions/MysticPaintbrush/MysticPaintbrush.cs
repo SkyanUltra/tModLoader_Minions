@@ -18,7 +18,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.MysticPaintbrush
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Mystic Palette");
-			Description.SetDefault("An ethereal painter's set will fight for you!");
+			Description.SetDefault("An ethereal paintbrush will fight for you!");
 		}
 	}
 
@@ -28,7 +28,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.MysticPaintbrush
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Mystic Palette");
-			Tooltip.SetDefault("Summons an ethereal painter's set to fight for you!");
+			Tooltip.SetDefault("Summons an ethereal paintbrush to fight for you!\n"+
+				"Can detect enemies through walls");
 		}
 
 		public override void SetDefaults()
