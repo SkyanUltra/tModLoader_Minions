@@ -18,8 +18,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.GoblinGunner
 		public override void SetStaticDefaults()
 		{
 			base.SetStaticDefaults();
-			DisplayName.SetDefault("Goblin Gunner");
-			Description.SetDefault("A goblin gunner will fight for you!");
+			DisplayName.SetDefault("Goblin Gunship");
+			Description.SetDefault("The goblin gunner will fight for you!");
 		}
 	}
 
@@ -29,7 +29,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.GoblinGunner
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Goblin Radio Beacon");
-			Tooltip.SetDefault("Summons a goblin gunship to fight for you!");
+			Tooltip.SetDefault("Summons a goblin gunship to fight for you!\n"+
+				"This minion empowers for each additional slot expended on it");
 		}
 		public override void ApplyCrossModChanges()
 		{
