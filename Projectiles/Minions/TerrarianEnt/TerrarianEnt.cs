@@ -23,7 +23,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.TerrarianEnt
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Ent of the Forest");
-			Description.SetDefault("A powerful forest spirit will fight for you!");
+			Description.SetDefault("The sacred guardian of the forest will fight for you!");
 		}
 	}
 
@@ -33,7 +33,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.TerrarianEnt
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Staff of the Sacred Sapling");
-			Tooltip.SetDefault("Summons a powerful forest spirit to fight for you!");
+			Tooltip.SetDefault("Summons a powerful forest guardian to fight for you!");
 		}
 
 		public override void SetDefaults()
