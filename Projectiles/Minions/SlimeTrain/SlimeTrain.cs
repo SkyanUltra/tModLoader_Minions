@@ -24,7 +24,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.SlimeTrain
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Celestial Slime Train");
-			Description.SetDefault("A celestial train and its passengers will fight for you!");
+			Description.SetDefault("The celestial train and its passengers will fight for you!");
 		}
 	}
 
