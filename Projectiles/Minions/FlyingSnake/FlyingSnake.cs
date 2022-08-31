@@ -18,7 +18,8 @@
 	//	{
 	//		base.SetStaticDefaults();
 	//		DisplayName.SetDefault("Flying Snake Staff");
-	//		Tooltip.SetDefault("Summons a flying snake to fight for you!");
+	//		Tooltip.SetDefault("Summons a flying snake to fight for you!\n"+
+	//			"This minion empowers for each additional slot expended on it");
 
 	//	}
 
