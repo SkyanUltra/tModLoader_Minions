@@ -28,7 +28,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.WhackAMole
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Magic Jelly Bean Jar");
-			Tooltip.SetDefault("Summons a stack of magic moles to fight for you!");
+			Tooltip.SetDefault("Summons a stack of magic moles to fight for you!\n"+
+				"This minion empowers for each additional slot expended on it");
 		}
 		public override void ApplyCrossModChanges()
 		{
