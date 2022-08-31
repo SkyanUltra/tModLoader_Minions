@@ -16,7 +16,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.ExciteSkull
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Skull Biker");
-			Description.SetDefault("A skeletal motorcyclist is fighting for you!");
+			Description.SetDefault("The skeletal motorcyclist will fight for you!");
 		}
 	}
 
