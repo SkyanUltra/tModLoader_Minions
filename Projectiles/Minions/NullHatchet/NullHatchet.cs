@@ -27,7 +27,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.NullHatchet
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Null Hatchet");
-			Tooltip.SetDefault("Summons an ethereal axe to fight for you!");
+			Tooltip.SetDefault("Summons an ethereal axe to fight for you!\n"+
+				"Can detect enemies through walls");
 		}
 		public override void ApplyCrossModChanges()
 		{
