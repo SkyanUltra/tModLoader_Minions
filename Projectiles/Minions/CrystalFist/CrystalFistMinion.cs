@@ -17,7 +17,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.CrystalFist
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Crystal Fist");
-			Description.SetDefault("A crystal fist will fight for you!");
+			Description.SetDefault("The crystalline brawler will fight for you!");
 		}
 	}
 
@@ -27,7 +27,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.CrystalFist
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Crystal Fist Staff");
-			Tooltip.SetDefault("Summons a crystal fist to fight for you!");
+			Tooltip.SetDefault("Summons a crystalline brawler to fight for you!\n"+
+				"This minion empowers for each additional slot expended on it");
 		}
 
 		public override void SetDefaults()
