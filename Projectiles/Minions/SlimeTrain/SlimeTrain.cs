@@ -34,7 +34,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.SlimeTrain
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Staff of the Celestial Slime Train");
-			Tooltip.SetDefault("Summons a celestial train to fight for you!");
+			Tooltip.SetDefault("Summons a celestial train to fight for you!\n"+
+				"This minion empowers for each additional slot expended on it");
 
 		}
 
