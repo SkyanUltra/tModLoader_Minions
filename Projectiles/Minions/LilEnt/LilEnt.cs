@@ -39,7 +39,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.LilEnt
 			Item.width = 30;
 			Item.height = 32;
 			Item.accessory = true;
-			Item.value = Item.sellPrice(silver: 1);
+			Item.value = Item.sellPrice(silver: 75);
 			Item.rare = ItemRarityID.Blue;
 		}
 
