@@ -21,7 +21,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.GoblinTechnomancer
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Goblin Technomancer");
-			Description.SetDefault("A goblin Technomancer will fight for you!");
+			Description.SetDefault("The goblin technomancer will fight for you!");
 		}
 	}
 
@@ -31,7 +31,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.GoblinTechnomancer
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Shadowflame Probe Controller");
-			Tooltip.SetDefault("Summons a goblin technomancer to fight for you!");
+			Tooltip.SetDefault("Summons a goblin technomancer to fight for you!\n"+
+				"This minion partially empowers for each additional slot expended on it");
 		}
 		
 		public override void ApplyCrossModChanges()
