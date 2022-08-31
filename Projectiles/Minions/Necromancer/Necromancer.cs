@@ -20,7 +20,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.Necromancer
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Necromancer");
-			Description.SetDefault("A necromancer and his skeletal servants will fight for you!");
+			Description.SetDefault("A necromancer and their skeletal servants will fight for you!");
 		}
 	}
 
@@ -30,7 +30,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.Necromancer
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Necro Doll");
-			Tooltip.SetDefault("Summons a neromancer to fight for you!");
+			Tooltip.SetDefault("Summons a neromancer to fight for you!\n"+
+				"This minion empowers for each additional slot expended on it");
 		}
 		
 		public override void ApplyCrossModChanges()
