@@ -27,7 +27,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.VoidKnife
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Void Dagger");
-			Tooltip.SetDefault("Summons an ethereal dagger to fight for you!");
+			Tooltip.SetDefault("Summons an ethereal dagger to fight for you!\n"+
+				"Can detect enemies through walls");
 		}
 		public override void ApplyCrossModChanges()
 		{
