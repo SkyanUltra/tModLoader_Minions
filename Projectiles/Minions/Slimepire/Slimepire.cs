@@ -24,7 +24,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.Slimepire
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Slimepire Staff");
-			Tooltip.SetDefault("Summons a vampire slime to fight for you!\nIgnores 10 enemy defense");
+			Tooltip.SetDefault("Summons a vampiric slime to fight for you!\nIgnores 15 enemy defense");
 		}
 		public override void ApplyCrossModChanges()
 		{
@@ -120,7 +120,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.Slimepire
 		{
 			// manually bypass defense
 			// this may not be wholly correct
-			int defenseBypass = 10;
+			int defenseBypass = 15;
 			int defense = Math.Min(target.defense, defenseBypass);
 			damage += defense / 2;
 		}
