@@ -16,7 +16,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.StoneCloud
 		public override void SetStaticDefaults()
 		{
 			base.SetStaticDefaults();
-			DisplayName.SetDefault("Stonecloud");
+			DisplayName.SetDefault("Stone Cloud");
 			Description.SetDefault("An extremely dense cloud will fight for you!");
 		}
 	}
