@@ -15,7 +15,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.PossessedCopperSword
 		public override void SetStaticDefaults()
 		{
 			base.SetStaticDefaults();
-			DisplayName.SetDefault("Starry SkySlasher");
+			DisplayName.SetDefault("Starry Skyslasher");
 			Description.SetDefault("An enchanted sword will fight for you!");
 		}
 	}
@@ -26,7 +26,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.PossessedCopperSword
 		public override void SetStaticDefaults()
 		{
 			base.SetStaticDefaults();
-			DisplayName.SetDefault("Starry SkySlasher");
+			DisplayName.SetDefault("Starry Skyslasher");
 			Tooltip.SetDefault("Summons an enchanted sword to fight for you!");
 		}
 		public override void ApplyCrossModChanges()
