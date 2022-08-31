@@ -19,7 +19,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.MycelialMage
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Mycelial Mage");
-			Description.SetDefault("A Mycelial Mage is fighting for you!");
+			Description.SetDefault("A mycelial mage is fighting for you!");
 		}
 	}
 
@@ -29,7 +29,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.MycelialMage
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Mycelial Staff");
-			Tooltip.SetDefault("Summons a Mycelial Mage to fight for you!");
+			Tooltip.SetDefault("Summons a mycelial mage to fight for you!");
 		}
 		public override void ApplyCrossModChanges()
 		{
