@@ -29,7 +29,9 @@ namespace AmuletOfManyMinions.Projectiles.Minions.SpiritGun
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Spirit Revolver");
-			Tooltip.SetDefault("Summons sentient bullets to fight for you.\n'Make sure they don't get hungry...'");
+			Tooltip.SetDefault("Summons sentient bullets to fight for you.\n"+
+				"This minion empowers for each additional slot expended on it\n"+
+				"'Make sure they don't get hungry...'");
 		}
 		public override void ApplyCrossModChanges()
 		{
