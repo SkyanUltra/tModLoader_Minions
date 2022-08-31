@@ -26,7 +26,9 @@ namespace AmuletOfManyMinions.Projectiles.Minions.XCXCopter
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Copter-X Staff");
-			Tooltip.SetDefault("Summons a flexible helicopter to fight for you!");
+			Tooltip.SetDefault("Summons a flexible helicopter to fight for you!\n"+
+				"This minion empowers for each additional slot expended on it\n"+
+				"'Vroom Vroom!'");
 
 		}
 		public override void ApplyCrossModChanges()
