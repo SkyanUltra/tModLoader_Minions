@@ -23,7 +23,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.TerrarianEnt
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Ent of the Forest");
-			Description.SetDefault("The sacred guardian of the forest will fight for you!");
+			Description.SetDefault("The sacred guardian of the forest will fight for you!\n"+
+				"This minion empowers for each additional slot expended on it");
 		}
 	}
 
