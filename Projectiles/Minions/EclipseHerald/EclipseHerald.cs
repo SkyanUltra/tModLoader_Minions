@@ -17,7 +17,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.EclipseHerald
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Eclipse Herald");
-			Description.SetDefault("A herald of the eclipse will fight for you!");
+			Description.SetDefault("The herald of the eclipse will fight for you!");
 		}
 	}
 
@@ -27,7 +27,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.EclipseHerald
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Eclipse Herald Staff");
-			Tooltip.SetDefault("Can't come to grips \nWith the total eclipse \nJust a slip of your lips \nand you're gone...");
+			Tooltip.SetDefault("'Can't come to grips with the total eclipse'\n"+
+				"This minion empowers for each additional slot expended on it");
 		}
 		public override void ApplyCrossModChanges()
 		{
