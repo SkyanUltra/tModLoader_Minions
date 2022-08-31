@@ -17,7 +17,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.Slimecart
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Slimecart");
-			Description.SetDefault("A slime miner will fight for you!");
+			Description.SetDefault("A slimy spelunker will fight for you!");
 		}
 	}
 
@@ -27,7 +27,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.Slimecart
 		{
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Slimecart Staff");
-			Tooltip.SetDefault("Summons slime miner to fight for you!");
+			Tooltip.SetDefault("Summons a slimy spelunker to fight for you!");
 		}
 		public override void ApplyCrossModChanges()
 		{
