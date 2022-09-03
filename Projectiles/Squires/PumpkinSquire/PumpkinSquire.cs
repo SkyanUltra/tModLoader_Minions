@@ -44,13 +44,13 @@ namespace AmuletOfManyMinions.Projectiles.Squires.PumpkinSquire
 			Item.knockBack = 3.5f;
 			Item.width = 24;
 			Item.height = 38;
-			Item.damage = 14;
+			Item.damage = 16;
 			Item.value = Item.sellPrice(0, 0, 1, 0);
 			Item.rare = ItemRarityID.Blue;
 		}
 		public override void AddRecipes()
 		{
-			CreateRecipe(1).AddIngredient(ItemID.Pumpkin, 15).AddRecipeGroup("AmuletOfManyMinions:EvilBars", 12).AddTile(TileID.Anvils).Register();
+			CreateRecipe(1).AddIngredient(ItemID.Pumpkin, 15).AddRecipeGroup("AmuletOfManyMinions:EvilBars", 8).AddTile(TileID.Anvils).Register();
 		}
 	}
 
@@ -245,7 +245,7 @@ namespace AmuletOfManyMinions.Projectiles.Squires.PumpkinSquire
 		private int WhipFrames => ModifiedAttackFrames / 2;
 
 
-		private readonly int whipLength = 128;
+		private readonly int whipLength = 160;
 		Vector2 whipVector;
 		private bool whipTipCrit;
 
@@ -357,7 +357,7 @@ namespace AmuletOfManyMinions.Projectiles.Squires.PumpkinSquire
 					Projectile.Center,
 					Vector2.Zero,
 					bigPumpkinType,
-					3 * Projectile.damage / 2,
+					2 * Projectile.damage,
 					Projectile.knockBack,
 					Main.myPlayer,
 					ai0: Projectile.whoAmI);
