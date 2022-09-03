@@ -183,7 +183,7 @@ namespace AmuletOfManyMinions.Projectiles.Squires.CrimsonSquire
 		public override string Texture => "Terraria/Images/Item_" + ItemID.FlaskofIchor;
 		protected override int DustId => 87;
 		protected override int BuffId => BuffID.Ichor;
-		protected override int BuffDuration => Projectile.originalDamage;
+		protected override int BuffDuration => 120;
 	}
 
 	public class CrimsonSquireMinion : WeaponHoldingSquire
