@@ -19,7 +19,7 @@ namespace AmuletOfManyMinions.Items.Armor.IllusionistArmor
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Illusionist Hood");
 			Tooltip.SetDefault("Increases your max number of minions by 1" +
-							   "\nIncreases minion damage by 4%");
+							   "\nIncreases minion damage by 5%");
 
 			ArmorIDs.Head.Sets.DrawHatHair[Item.headSlot] = true;
 		}
@@ -30,7 +30,7 @@ namespace AmuletOfManyMinions.Items.Armor.IllusionistArmor
 			Item.height = 18;
 			Item.value = Item.sellPrice(silver: 3);
 			Item.rare = ItemRarityID.Orange;
-			Item.defense = 4;
+			Item.defense = 3;
 		}
 
 		public override bool IsArmorSet(Item head, Item body, Item legs)
@@ -42,7 +42,7 @@ namespace AmuletOfManyMinions.Items.Armor.IllusionistArmor
 		public override void UpdateEquip(Player player)
 		{
 			player.maxMinions += 1;
-			player.GetDamage<SummonDamageClass>() += 0.04f;
+			player.GetDamage<SummonDamageClass>() += 0.05f;
 		}
 
 		public override void ArmorSetShadows(Player player)
@@ -55,7 +55,7 @@ namespace AmuletOfManyMinions.Items.Armor.IllusionistArmor
 
 		public override void UpdateArmorSet(Player player)
 		{
-			player.setBonus = "+1 Max Minions\n"
+			player.setBonus = "Increases your max number of minions by 1\n"
 				+ "Wisps will spawn as your minions deal damage!";
 			player.maxMinions++;
 			player.GetModPlayer<MinionSpawningItemPlayer>().illusionistArmorSetEquipped = true;
