@@ -23,7 +23,7 @@ namespace AmuletOfManyMinions.Items.Armor.AridArmor
 			Item.height = 18;
 			Item.value = Item.sellPrice(silver: 2, copper: 50);
 			Item.rare = ItemRarityID.Green;
-			Item.defense = 6;
+			Item.defense = 7;
 		}
 
 		public override void UpdateEquip(Player player)
