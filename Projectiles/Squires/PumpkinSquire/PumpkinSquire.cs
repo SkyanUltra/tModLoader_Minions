@@ -44,13 +44,13 @@ namespace AmuletOfManyMinions.Projectiles.Squires.PumpkinSquire
 			Item.knockBack = 3.5f;
 			Item.width = 24;
 			Item.height = 38;
-			Item.damage = 16;
+			Item.damage = 15;
 			Item.value = Item.sellPrice(0, 0, 1, 0);
 			Item.rare = ItemRarityID.Blue;
 		}
 		public override void AddRecipes()
 		{
-			CreateRecipe(1).AddIngredient(ItemID.Pumpkin, 15).AddRecipeGroup("AmuletOfManyMinions:EvilBars", 8).AddTile(TileID.Anvils).Register();
+			CreateRecipe(1).AddIngredient(ItemID.Pumpkin, 15).AddRecipeGroup("AmuletOfManyMinions:EvilBars", 12).AddTile(TileID.Anvils).Register();
 		}
 	}
 
@@ -222,7 +222,7 @@ namespace AmuletOfManyMinions.Projectiles.Squires.PumpkinSquire
 	{
 		public override int BuffId => BuffType<PumpkinSquireMinionBuff>();
 		protected override int ItemType => ItemType<PumpkinSquireMinionItem>();
-		protected override int AttackFrames => 40;
+		protected override int AttackFrames => 32;
 		protected override string WingTexturePath => "AmuletOfManyMinions/Projectiles/Squires/Wings/SpookyWings";
 		protected override string WeaponTexturePath => null;
 
