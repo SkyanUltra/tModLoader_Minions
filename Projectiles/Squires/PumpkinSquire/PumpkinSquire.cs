@@ -139,6 +139,7 @@ namespace AmuletOfManyMinions.Projectiles.Squires.PumpkinSquire
 			bounces = 3;
 			Projectile.penetrate = 3;
 			dustCount = 3;
+			Projectile.usesLocalNPCImmunity = true;
 		}
 		protected override int TimeToLive => 120;
 
@@ -173,6 +174,7 @@ namespace AmuletOfManyMinions.Projectiles.Squires.PumpkinSquire
 			bounces = 12;
 			Projectile.penetrate = 20;
 			dustCount = 6;
+			Projectile.usesLocalNPCImmunity = true;
 		}
 		int spawnFrames = 30;
 		protected override int TimeToLive => 360;
