@@ -11,7 +11,7 @@ namespace AmuletOfManyMinions.Items.Armor.IllusionistArmor
 			base.SetStaticDefaults();
 			DisplayName.SetDefault("Illusionist Robe");
 			Tooltip.SetDefault("Increases your max number of minions by 1" +
-							   "\nIncreases minion damage by 4%");
+							   "\nIncreases minion damage by 5%");
 		}
 
 		public override void SetDefaults()
@@ -20,13 +20,13 @@ namespace AmuletOfManyMinions.Items.Armor.IllusionistArmor
 			Item.height = 18;
 			Item.value = Item.sellPrice(silver: 2, copper: 50);
 			Item.rare = ItemRarityID.Orange;
-			Item.defense = 7;
+			Item.defense = 6;
 		}
 
 		public override void UpdateEquip(Player player)
 		{
 			player.maxMinions += 1;
-			player.GetDamage<SummonDamageClass>() += 0.04f;
+			player.GetDamage<SummonDamageClass>() += 0.05f;
 		}
 	}
 
