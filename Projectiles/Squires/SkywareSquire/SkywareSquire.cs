@@ -39,7 +39,7 @@ namespace AmuletOfManyMinions.Projectiles.Squires.SkywareSquire
 			Item.knockBack = 3f;
 			Item.width = 24;
 			Item.height = 38;
-			Item.damage = 18;
+			Item.damage = 16;
 			Item.value = Item.sellPrice(0, 0, 1, 0);
 			Item.rare = ItemRarityID.Blue;
 		}
@@ -60,7 +60,7 @@ namespace AmuletOfManyMinions.Projectiles.Squires.SkywareSquire
 		public override bool? Colliding(Rectangle projHitbox, Rectangle targetHitbox)
 		{
 			// make the arrow a bit bigger to hit things more reliably
-			projHitbox.Inflate(32, 0);
+			projHitbox.Inflate(20, 0);
 			return projHitbox.Intersects(targetHitbox);
 		}
 
