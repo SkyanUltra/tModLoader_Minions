@@ -41,7 +41,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.FishBowl
 		public override void SetDefaults()
 		{
 			base.SetDefaults();
-			Item.damage = 14;
+			Item.damage = 17;
 			Item.knockBack = 0.5f;
 			Item.mana = 10;
 			Item.width = 28;
