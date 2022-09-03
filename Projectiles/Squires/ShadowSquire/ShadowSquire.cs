@@ -55,7 +55,7 @@ namespace AmuletOfManyMinions.Projectiles.Squires.ShadowSquire
 		public override string Texture => "Terraria/Images/Item_" + ItemID.FlaskofCursedFlames;
 		protected override int DustId => 89;
 		protected override int BuffId => BuffID.CursedInferno;
-		protected override int BuffDuration => 420;
+		protected override int BuffDuration => 300;
 	}
 
 	public class ShadowSquireMinion : WeaponHoldingSquire
