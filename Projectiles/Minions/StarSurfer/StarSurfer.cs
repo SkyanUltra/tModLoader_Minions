@@ -33,7 +33,7 @@ namespace AmuletOfManyMinions.Projectiles.Minions.StarSurfer
 		public override void SetDefaults()
 		{
 			base.SetDefaults();
-			Item.damage = 32;
+			Item.damage = 27;
 			Item.knockBack = 3f;
 			Item.mana = 10;
 			Item.width = 46;
@@ -86,8 +86,8 @@ namespace AmuletOfManyMinions.Projectiles.Minions.StarSurfer
 
 		public override int BuffId => BuffType<StarSurferMinionBuff>();
 
-		protected int projectileFireRate = 120;
-		protected int projectileDamage = 30;
+		protected int projectileFireRate = 150;
+		protected int projectileDamage = 25;
 		protected int projectileFrameCount = 0;
 		protected int projectileVelocity = 18;
 		protected int projectileType;
